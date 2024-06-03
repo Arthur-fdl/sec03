@@ -1,0 +1,154 @@
+/* External */
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+#yellow {
+    color: yellowgreen;
+}
+
+#ovos {
+    color: orange;
+}
+
+#red {
+    color: crimson;
+}
+
+/* p {
+    color: blueviolet;
+} */
+
+/* Classes */
+.paragraph {
+    color: aqua;
+    background-color: black;
+    padding: 5px;
+}
+
+/* Id */
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* Ordem das regras */
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
+
+/* Nome de cores */
+.color-name {
+    color: crimson;
+}
+
+/* hex */
+.hex {
+    color: #55a398;
+}
+
+.hex-2 {
+    color: #371ba5;
+}
+
+/* Aprofundando mais em hex */
+.simple-hex {
+    color: #531;
+}
+
+.simple-hex-2 {
+    color: #a5f;
+}
+
+/* RGB */
+.rgb {
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+    color: rgb(55, 55, 55);
+}
+
+/* RGBa */
+.rgba {
+    color: rgba(211, 212, 10, 0.5);
+}
+
+/* HSL */
+.hsl {
+    color: hsl(100, 100%, 20%);
+}
+
+.hsl-2 {
+    color: hsl(50, 30%, 25%);
+}
+
+/* background-color */
+.bg {
+    background-color: #000;
+    color: white;
+}
+
+.bg-2 {
+    background-color: #371ba5;
+    color: rgb(100, 222, 222);
+}
+
+/* backgroud opacity */
+.bg-opacity {
+    background-color: #371ba5;
+    opacity: 0.5;
+}
+
+.bg-opacity-2 {
+    background-color: #999;
+    color: #000;
+    opacity: 0.8;
+}
+
+/* RGBa opacity */
+.rgba-opacity {
+    background-color: rgba(90, 120, 20, 0.8);
+    color: #000;
+}
+
+/* bg image */
+.bg-image {
+    background-image: url(../img/brad-pitt-em-cena-de-clube-da-luta-1502732790806_v2_900x506.jpg);
+    padding: 10px;
+    color: white;
+}
+
+/* centralizando bg */
+.not-center,
+.center-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/Brad-pit.jpg);
+}
+
+.center-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* Largura = width e Altura = height */
+.height-width {
+    width: 100px;
+    height: 200px;
+    background-color: red;
+}
